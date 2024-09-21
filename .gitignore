@@ -1,0 +1,31 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+*.env
+
+# Ignore large dataset files (if you don’t want to push datasets)
+*.csv
+*.h5
+*.pkl
+*.dat
+
+# Ignore Jupyter-related files
+.virtual_documents/
+
+# Ignore large model files
+*.h5
+*.model
+
+# Ignore system-specific files
+*.DS_Store
+*.log
+
+# Git LFS tracked files
+.gitattributes
